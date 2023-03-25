@@ -6,7 +6,6 @@ import {
   SearchFormInput,
 } from './SearchForm.styled';
 import { FcSearch } from 'react-icons/fc';
-import { toast } from 'react-toastify';
 
 export class SearchForm extends Component {
   state = {

@@ -4,7 +4,6 @@ import { Gallery, Sorry } from './ImageGallery.styled';
 import { BtnLoadMore } from '../BtnLoadMore/BtnLoadMore';
 import { Audio } from 'react-loader-spinner';
 import { getImages } from 'Services/imageSevice';
-import { toast } from 'react-toastify';
 
 export class ImageGallery extends Component {
   state = {
